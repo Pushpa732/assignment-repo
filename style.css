@@ -11,18 +11,23 @@
   background-repeat: no-repeat;
   text-align: center;
   color: #1e1e2f;
-  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
 }
 .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 50px;
+ 
 }
 .logo {
   font-size: 20px;
   font-weight:  bold;
   color: #4E47FF;
+   font-size: 20px; 
+  margin: 0 0 10px 0; 
 }
 .signup-btn {
   background-color: #4c5eff;
@@ -33,12 +38,18 @@
   font-weight: bold;
   font-size: 14px;
 }
+.signup-btn:hover{
+  background-color: #071062;
+  
+}
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  font-size: 36px; 
+  margin-bottom: 20px;
 }
 .hero h1 {
   font-size: 42px;
@@ -56,6 +67,10 @@
   font-weight: bold;
   font-size: 14px;
   box-shadow: 0 4px 8px rgba(76, 94, 255, 0.3);
+   margin-top: 20px;
+}
+.cta-btn:hover{
+  background-color: #071062;
 }
 /* See It in Action Section */
 .action-section {
@@ -99,6 +114,7 @@
   font-weight: bold;
   font-size: 14px;
 }
+
 
 .action-image img {
   width: 100%;
@@ -265,6 +281,10 @@
   border-radius: 8px;
   margin-bottom: 40px;
 }
+.focus-button:hover{
+  background-color: #071062;
+  
+}
 
 .focus-image {
   width: 800px;
@@ -331,4 +351,47 @@
 
 .contact-form button:hover {
   background-color: #3f37c9;
+}
+.footer {
+  background-color: #f9f9fb;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 15px;
+  color: #8c8c9f;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #8c8c9f;
+  transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+  color: #4f46e5;
+ 
+
 }
